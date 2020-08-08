@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="homepageStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>AtlasMoji</title>
+</head>
+<body>
+
+
+<div class="header">
+        <img src="logo.svg" alt="project logo" class="logo">
+
+    <div class="credits">
+        Inspirado na biblioteca <a href="https://gitmoji.carloscuesta.me/">Gitmoji</a> criada por <a href="https://github.com/carloscuesta">Carlos Cuesta</a>.
+    </div>
+    <a href="https://github.com/atlastechnol/AtlasMoji" target="_blank" rel="noopener noreferrer">
+        <div class="git-hub-button">
+            Github
+        </div>
+    </a>
+
+</div>
+<div class="cards-plane">
+    <div id="cardContainer" class="card-container"></div>
+</div>
+
+<script src="emojiRender.js"></script>
+
+<!-- Copia o código do emoji ao clicar no card -->
+<script>
+    function copyToClipboard(emojiCode) {
+        navigator.clipboard.writeText(emojiCode + ' ')
+    };
+</script>
+
+</body>
+</html>
