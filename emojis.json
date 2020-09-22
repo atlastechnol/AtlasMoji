@@ -18,28 +18,28 @@
       "emoji": "✨",
       "entity": "&#x2728;",
       "code": ":sparkles:",
-      "description": "Introduce new features.",
+      "description": "Introduzindo novos recursos.",
       "name": "sparkles"
     },
     {
       "emoji": "🐛",
       "entity": "&#x1f41b;",
       "code": ":bug:",
-      "description": "Fix a bug.",
+      "description": "Consertando um bug.",
       "name": "bug"
     },
     {
       "emoji": "🚧",
       "entity": "&#x1f6a7;",
       "code": ":construction:",
-      "description": "Work in progress.",
+      "description": "O código ou recurso encontra-se em fase de construção, não está completo.",
       "name": "construction"
     },
     {
       "emoji": "🎨",
       "entity": "&#x1f3a8;",
       "code": ":art:",
-      "description": "Improve structure / format of the code.",
+      "description": "Melhorias na formatação ou na estrutura do código.",
       "name": "art"
     },
     {
@@ -67,7 +67,7 @@
       "emoji": "🔥",
       "entity": "&#x1f525;",
       "code": ":fire:",
-      "description": "Remove code or files.",
+      "description": "Remoção de arquivos ou trechos de código.",
       "name": "fire"
     },
     {
@@ -82,21 +82,21 @@
       "emoji": "📝",
       "entity": "&#x1f4dd;",
       "code": ":pencil:",
-      "description": "Write docs.",
+      "description": "Escrevendo documentação.",
       "name": "pencil"
     },
     {
       "emoji": "🚀",
       "entity": "&#x1f680;",
       "code": ":rocket:",
-      "description": "Deploy stuff.",
+      "description": "Lançamento de recursos para produção.",
       "name": "rocket"
     },
     {
       "emoji": "💄",
       "entity": "&#ff99cc;",
       "code": ":lipstick:",
-      "description": "Add or update the UI and style files.",
+      "description": "Adição ou atualização em arquivos realcionados a Estilo ou UI/UX.",
       "name": "lipstick"
     },
     {
@@ -138,28 +138,28 @@
       "emoji": "♻️",
       "entity": "&#x2672;",
       "code": ":recycle:",
-      "description": "Refactor code.",
+      "description": "Refatoração/melhoria de código.",
       "name": "recycle"
     },
     {
       "emoji": "➕",
       "entity": "&#10133;",
       "code": ":heavy_plus_sign:",
-      "description": "Add a dependency.",
+      "description": "Adicionando uma dependência.",
       "name": "heavy-plus-sign"
     },
     {
       "emoji": "➖",
       "entity": "&#10134;",
       "code": ":heavy_minus_sign:",
-      "description": "Remove a dependency.",
+      "description": "Removendo uma dependência",
       "name": "heavy-minus-sign"
     },
     {
       "emoji": "🔧",
       "entity": "&#x1f527;",
       "code": ":wrench:",
-      "description": "Add or update configuration files.",
+      "description": "Adicionando ou atualizando arquivos de configurações.",
       "name": "wrench"
     },
     {
