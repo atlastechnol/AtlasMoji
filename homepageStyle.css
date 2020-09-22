@@ -1,5 +1,6 @@
 body {
     background-image: url("background.png");
+    font-family: 'Roboto', 'Sans-serif';
 }
 
 .header {
@@ -9,7 +10,24 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
-
+.feedback-box{
+    text-align: center;
+    position: fixed;
+    top: 1vh;
+    left: 2vw;
+    padding: 13px;
+    margin: 1rem;
+    height: 50px;
+    background-color: #4995c0;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    box-shadow: 0px 0px 66px -10px rgba(0,0,0,0.75);
+}
 
 .credits {
     color: rgb(224, 219, 219);
